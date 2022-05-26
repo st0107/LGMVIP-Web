@@ -18,7 +18,7 @@ export default function ToDoForm(props) {
     }
   return (<form className='todo-form'>
         <input type='text' placeholder='Add Task' onChange={handleChange} className='todo-inp' value={input} name='task'/>
-        <button type='submit' onClick={handleSubmit} className="todo-btn">Add</button>
+        <button type='submit' onClick={handleSubmit} className="todo-btn">+</button>
     </form>
     );
 }
