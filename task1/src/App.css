@@ -1,10 +1,19 @@
+.header{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(4, 191, 54);
+  margin: 0rem -35rem;
+  color: whitesmoke;
+  font-size: x-large;
+  width: 180%;
+}
 
 .ToDo-List-container{
   display : flex;
   justify-content: center;
   align-items: flex-start;
   width: 80rem;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   min-height: 50rem;
   margin: 3rem;
 }
@@ -16,6 +25,7 @@
   width:100%;
   font-size: 2rem;
   gap: 1rem;
+  margin-bottom: 4rem;
 }
 
 .todo-form input:focus{
